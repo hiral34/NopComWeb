@@ -1,8 +1,12 @@
 package InfoSys;
 
+import com.google.common.base.Verify;
+import org.junit.Assert;
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.asserts.SoftAssert;
+import org.testng.xml.dom.ParentSetter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +22,12 @@ public class TestSuite extends BaseTest{
     EmailAFriendPage emailAFriendPage = new EmailAFriendPage();
     LoginPage loginPage = new LoginPage();
     ClothingPage clothingPage = new ClothingPage();
+    SoftAssert softAssert = new SoftAssert();
+    ShoppingCart shoppingCart = new ShoppingCart();
+    CheckoutGuest checkoutGuest = new CheckoutGuest();
+    OnePageCheckout onePageCheckout = new OnePageCheckout();
+    NewsPage newsPage = new NewsPage();
+    NewStoreOpenComment newStoreOpenComment = new NewStoreOpenComment();
     @Test
     public void userShouldAbleToRegisterSuccessfully(){
 
@@ -90,4 +100,53 @@ public class TestSuite extends BaseTest{
         //  Sort High to Low and Chk the products are displayed in price order High to Low
         clothingPage.sortProductsHighToLow();
     }
+    @Test
+    public void displayProductPrice(){
+        List<WebElement> priceList = driver.findElements(By.xpath("//span[@class='price actual-price']"));
+        //System.out.println(priceList.size());
+        for (WebElement we:priceList){
+            System.out.println(we.getText());
+            System.out.println("*****************");
+//            Assert.assertTrue(we.getText().contains("£"),"£ not found in"+we.getText());
+            softAssert.assertTrue(we.getText().contains("£"),"£ not found in "+ we.getText());
+        }
+        softAssert.assertAll();
+        System.out.println("my name is raj");
+    }
+   @Test
+   public void guestUserShouldCheckoutSuccessfully(){
+        //click on product category and choose a product
+        Utils.navigateToJewelryPage();
+        jewelryPage.verifyUserIsOnJewelryPage();
+        //Choose and click a Product
+        jewelryPage.chooseAProduct();
+        //add product to cart
+        productDetailsPage.addProductToCart();
+        //Accept terms and chekout
+        shoppingCart.checkoutProducts();
+        //Choose guest checkout option
+        checkoutGuest.CheckoutAsGuest();
+        //Fill in form details
+        onePageCheckout.fillFormDetails();
+   }
+   @Test
+    public void guestUserShouldBeAbleToComment(){
+        //click on news link
+        homePage.clickOnNewsLink();
+        //click on news details
+        newsPage.clickOnNewsDetails();
+        //enter comments
+        newStoreOpenComment.newStoreOpenComments();
+   }
+   @Test
+   public void userShouldBeAbleToChangeCurrency(){
+        //check the prices change or not on home page once the currency changes
+        homePage.getCurrentCurrency();
+   }
+
+   @Test
+    public void verifyAddToCartButtonForAllFeaturedProducts(){
+        //loop through the featured products on home page to look for Add to Cart button
+        homePage.checkAddToCartButtonOnProducts();
+   }
 }

@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ed5d14a-5270-4c61-b85f-648c27b86ffb" name="Default Changelist" comment="" />
+    <list default="true" id="5ed5d14a-5270-4c61-b85f-648c27b86ffb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/InfoSys/CheckoutGuest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InfoSys/LoadProp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InfoSys/NewStoreOpenComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InfoSys/NewsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InfoSys/OnePageCheckout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InfoSys/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/BrowserDriver/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/BrowserDriver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/Data/testconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InfoSys/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InfoSys/BrowserSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InfoSys/ClothingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InfoSys/ClothingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InfoSys/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InfoSys/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InfoSys/ProductComparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InfoSys/ProductComparison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InfoSys/ProductDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InfoSys/ProductDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InfoSys/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InfoSys/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resources/Data/nopcom.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Data/nopcom.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InfoSys/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InfoSys/TestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InfoSys/BrowserSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InfoSys/BrowserSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InfoSys/ClothingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InfoSys/ClothingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InfoSys/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InfoSys/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InfoSys/ProductComparison.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InfoSys/ProductComparison.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InfoSys/ProductDetailsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InfoSys/ProductDetailsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InfoSys/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InfoSys/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InfoSys/TestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InfoSys/TestSuite.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +41,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +52,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XqerRIUn3TeDroprYLWenClWFI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,18 +60,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/Resources/Data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/Resources/BrowserDriver" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="InfoSys" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Me\IdeaProjects\NopComWeb\src\test\Resources\BrowserDriver" />
+      <recent name="C:\Users\Me\IdeaProjects\NopComWeb\src\test\Resources\Data" />
       <recent name="C:\Users\Me\IdeaProjects\NopCom\NopComWeb\src\test\Resources\BrowserDriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestSuite.registeredUserShouldBeAbleToReferAFriend">
-    <configuration name="TestSuite" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestSuite.userShouldBeAbleToChangeCurrency">
+    <configuration name="TestSuite.guestUserShouldBeAbleToComment" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopComWeb" />
       <extension name="coverage">
         <pattern>
@@ -50,24 +83,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="InfoSys" />
       <option name="MAIN_CLASS_NAME" value="InfoSys.TestSuite" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSuite.registeredUserShouldBeAbleToReferAFriend" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NopComWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InfoSys.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="InfoSys" />
-      <option name="MAIN_CLASS_NAME" value="InfoSys.TestSuite" />
-      <option name="METHOD_NAME" value="registeredUserShouldBeAbleToReferAFriend" />
+      <option name="METHOD_NAME" value="guestUserShouldBeAbleToComment" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -75,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuite.unregisteredUserShouldNOTBeAbleReferAFriend" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuite.guestUserShouldCheckoutSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopComWeb" />
       <extension name="coverage">
         <pattern>
@@ -85,7 +101,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="InfoSys" />
       <option name="MAIN_CLASS_NAME" value="InfoSys.TestSuite" />
-      <option name="METHOD_NAME" value="unregisteredUserShouldNOTBeAbleReferAFriend" />
+      <option name="METHOD_NAME" value="guestUserShouldCheckoutSuccessfully" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuite.userShouldAbleToRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuite.userShouldBeAbleToChangeCurrency" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopComWeb" />
       <extension name="coverage">
         <pattern>
@@ -103,7 +119,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="InfoSys" />
       <option name="MAIN_CLASS_NAME" value="InfoSys.TestSuite" />
-      <option name="METHOD_NAME" value="userShouldAbleToRegisterSuccessfully" />
+      <option name="METHOD_NAME" value="userShouldBeAbleToChangeCurrency" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuite.userShouldBeAbleToSortOutProductHighToLow" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuite.userShouldBeAbleToCompareProducts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopComWeb" />
       <extension name="coverage">
         <pattern>
@@ -121,7 +137,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="InfoSys" />
       <option name="MAIN_CLASS_NAME" value="InfoSys.TestSuite" />
-      <option name="METHOD_NAME" value="userShouldBeAbleToSortOutProductHighToLow" />
+      <option name="METHOD_NAME" value="userShouldBeAbleToCompareProducts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.verifyAddToCartButtonForAllFeaturedProducts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopComWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InfoSys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="InfoSys" />
+      <option name="MAIN_CLASS_NAME" value="InfoSys.TestSuite" />
+      <option name="METHOD_NAME" value="verifyAddToCartButtonForAllFeaturedProducts" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSuite.registeredUserShouldBeAbleToReferAFriend" />
-        <item itemvalue="TestNG.TestSuite.userShouldBeAbleToSortOutProductHighToLow" />
-        <item itemvalue="TestNG.TestSuite.unregisteredUserShouldNOTBeAbleReferAFriend" />
-        <item itemvalue="TestNG.TestSuite.userShouldAbleToRegisterSuccessfully" />
-        <item itemvalue="TestNG.TestSuite" />
+        <item itemvalue="TestNG.TestSuite.userShouldBeAbleToChangeCurrency" />
+        <item itemvalue="TestNG.TestSuite.guestUserShouldBeAbleToComment" />
+        <item itemvalue="TestNG.TestSuite.verifyAddToCartButtonForAllFeaturedProducts" />
+        <item itemvalue="TestNG.TestSuite.guestUserShouldCheckoutSuccessfully" />
+        <item itemvalue="TestNG.TestSuite.userShouldBeAbleToCompareProducts" />
       </list>
     </recent_temporary>
   </component>
@@ -165,37 +199,49 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581783849938">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582636849452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1581783849938" />
-    <state width="1323" height="216" key="GridCell.Tab.0.bottom" timestamp="1582145016136">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1582636849452" />
+    <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582412890065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="216" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582145016136" />
-    <state width="1323" height="216" key="GridCell.Tab.0.center" timestamp="1582145016136">
+    <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1582412890065" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1582311802780">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="216" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582145016136" />
-    <state width="1323" height="216" key="GridCell.Tab.0.left" timestamp="1582145016136">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582311802780" />
+    <state width="1323" height="146" key="GridCell.Tab.0.bottom" timestamp="1582686044660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="216" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582145016136" />
-    <state width="1323" height="216" key="GridCell.Tab.0.right" timestamp="1582145016136">
+    <state width="1323" height="146" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582686044660" />
+    <state width="1323" height="146" key="GridCell.Tab.0.center" timestamp="1582686044660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="216" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582145016136" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1582144664192">
+    <state width="1323" height="146" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582686044660" />
+    <state width="1323" height="146" key="GridCell.Tab.0.left" timestamp="1582686044660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582144664192" />
+    <state width="1323" height="146" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582686044660" />
+    <state width="1323" height="146" key="GridCell.Tab.0.right" timestamp="1582686044660">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="146" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582686044660" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1582745177325">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582745177325" />
     <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581887061069">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1581887061069" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1582077716622">
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1582389245526">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582077716622" />
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1582389245526" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1582676392180">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582676392180" />
   </component>
 </project>

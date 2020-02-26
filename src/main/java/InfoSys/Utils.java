@@ -39,6 +39,18 @@ public class Utils extends BasePage{
         Select dropdown3 = new Select(driver.findElement(by));
         dropdown3.selectByValue(value);
     }
+    public static void selectCountryByIndex(By by, int intNum){
+        Select dropdownCountry = new Select(driver.findElement(by));
+        dropdownCountry.selectByIndex(intNum);
+    }
+    public static void selectExpiryMonthByIndex(By by, int intNum) {
+        Select dropdownExpiryMonth = new Select(driver.findElement(by));
+        dropdownExpiryMonth.selectByIndex(intNum);
+    }
+    public static void selectStateByValue(By by, String strValue){
+        Select dropdownState = new Select(driver.findElement(by));
+        dropdownState.selectByValue(strValue);
+    }
     public static void selectClothingHighToLowByValue(By by, String value) {
         Select dropdownClothing = new Select(driver.findElement(by));
         dropdownClothing.selectByValue(value);
@@ -63,5 +75,25 @@ public class Utils extends BasePage{
     }
     public static void navigateToClothingPage(){
         driver.get("https://demo.nopcommerce.com/clothing");
+    }
+    public static void navigateToTempURL(){driver.get("https://demo.nopcommerce.com/new-online-store-is-open");}
+    public static String getCurrentCurrency(By by){
+        Select dropdownCurrency = new Select(driver.findElement(by));
+        String selectedCurrency = dropdownCurrency.getFirstSelectedOption().getText();
+        return selectedCurrency;
+    }
+    public static String getCurrencyChanged(By by) {
+        String changedCurrency = "";
+        Select dropdownChangeCurrency = new Select(driver.findElement(by));
+        String selectedCurrency = dropdownChangeCurrency.getFirstSelectedOption().getText();
+        if (selectedCurrency.equalsIgnoreCase("US Dollar")) {
+            dropdownChangeCurrency.selectByVisibleText("Euro");
+            changedCurrency = "Euro";
+        } else {
+            dropdownChangeCurrency.selectByVisibleText("US Dollar");
+            changedCurrency = "Dollar";
+        }
+        return changedCurrency;
+
     }
 }

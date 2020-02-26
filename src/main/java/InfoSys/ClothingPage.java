@@ -29,6 +29,7 @@ public class ClothingPage extends Utils{
             //System.out.println(priceOrder.get(i).getText());
             String strPrice1 =  priceOrder.get(i).getText().substring(priceOrder.get(i).getText().indexOf("$")+1,priceOrder.get(i).getText().length());
             float fPrice1 = Float.parseFloat(strPrice1);
+            System.out.println(fPrice1);
             //logic to only compare until last product and not go beyond
             if(i<priceOrder.size()-1){
                 String strPrice2 =  priceOrder.get(i+1).getText().substring(priceOrder.get(i+1).getText().indexOf("$")+1,priceOrder.get(i+1).getText().length());

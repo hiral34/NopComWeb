@@ -10,6 +10,5 @@ public class ProductComparison extends Utils{
     public void verifyUserOnProductComparisonPage(){
         //assertURL("compareproducts");
         assertTextMessage("Page not found",expected,_pageTitle);
-
     }
 }
