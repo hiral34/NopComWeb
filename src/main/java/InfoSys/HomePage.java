@@ -13,7 +13,7 @@ public class HomePage extends Utils {
     private By _registrationLink = By.linkText("Register");
     private By _jewelryLink = By.linkText("Jewelry");
     private By _loginLink = By.linkText("Log in");
-    private By _newsLink = By.linkText("News");
+    private By _newsLink = By.xpath("//a[@class='read-more' and @href='/new-online-store-is-open']");
     private By _currentCurrency = By.id("customerCurrency");
 
     public void clickOnRegistrationLink(){
