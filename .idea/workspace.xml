@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ed5d14a-5270-4c61-b85f-648c27b86ffb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/AddToCart.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/GuestComment.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/GuestUserCheckout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/ProductsHighToLow.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/UnregisteredUserNOTReferFriend.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/currencyChange.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/productCompare.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/registerReferAFriend.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/registration.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InfoSys/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InfoSys/MyStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InfoSys/RunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InfoSys/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InfoSys/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InfoSys/NewsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InfoSys/NewsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InfoSys/RegistrationResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InfoSys/RegistrationResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InfoSys/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InfoSys/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InfoSys/NewsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InfoSys/NewsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InfoSys/RegistrationResultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InfoSys/RegistrationResultPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Data/nopcom.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Data/nopcom.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/InfoSys/TestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InfoSys/TestSuite.class" afterDir="false" />
-    </list>
+    <list default="true" id="5ed5d14a-5270-4c61-b85f-648c27b86ffb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
