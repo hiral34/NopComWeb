@@ -33,7 +33,7 @@ public class Hooks extends Utils{
             }catch (IOException e){
             }
         }
-        driver.quit();
-        browserSelector.closeBrowser();
+        //driver.quit();
+        //browserSelector.closeBrowser();
     }
 }

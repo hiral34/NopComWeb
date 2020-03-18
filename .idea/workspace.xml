@@ -2,28 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ed5d14a-5270-4c61-b85f-648c27b86ffb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/AddToCart.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/GuestComment.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/GuestUserCheckout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/ProductsHighToLow.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/UnregisteredUserNOTReferFriend.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/currencyChange.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/productCompare.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/registerReferAFriend.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/registration.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InfoSys/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InfoSys/MyStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InfoSys/RunTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/MenuHover.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/category.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InfoSys/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InfoSys/BrowserSelector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/InfoSys/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InfoSys/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InfoSys/NewsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InfoSys/NewsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InfoSys/RegistrationResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InfoSys/RegistrationResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resources/Data/testconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Data/testconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InfoSys/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InfoSys/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InfoSys/MyStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InfoSys/MyStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InfoSys/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InfoSys/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Destination/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/Destination/embedded0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Destination/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Destination/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InfoSys/BrowserSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InfoSys/BrowserSelector.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/InfoSys/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InfoSys/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InfoSys/NewsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InfoSys/NewsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InfoSys/RegistrationResultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InfoSys/RegistrationResultPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Data/nopcom.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Data/nopcom.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/InfoSys/TestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InfoSys/TestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Data/testconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Data/testconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InfoSys/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InfoSys/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InfoSys/MyStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InfoSys/MyStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InfoSys/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InfoSys/RunTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +54,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NopCom/NopCommerce1-master (1)/NopCommerce1-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaRestAssured-master" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="InfoSys" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
       <recent name="InfoSys" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -73,8 +66,11 @@
       <recent name="C:\Users\Me\IdeaProjects\NopComWeb\src\test\Resources\Data" />
       <recent name="C:\Users\Me\IdeaProjects\NopCom\NopComWeb\src\test\Resources\BrowserDriver" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="InfoSys" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestSuite.verifyAddToCartButtonForAllFeaturedProducts">
+  <component name="RunManager" selected="JUnit.RunTest">
     <configuration name="RunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NopComWeb" />
       <extension name="coverage">
@@ -90,6 +86,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSuite.guestUserShouldBeAbleToComment" type="TestNG" nameIsGenerated="true">
+      <module name="NopComWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InfoSys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="InfoSys" />
+      <option name="MAIN_CLASS_NAME" value="InfoSys.TestSuite" />
+      <option name="METHOD_NAME" value="guestUserShouldBeAbleToComment" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestSuite.guestUserShouldBeAbleToComment" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopComWeb" />
       <extension name="coverage">
@@ -98,17 +121,26 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="InfoSys" />
       <option name="MAIN_CLASS_NAME" value="InfoSys.TestSuite" />
       <option name="METHOD_NAME" value="guestUserShouldBeAbleToComment" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuite.registeredUserShouldBeAbleToReferAFriend" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuite.guestUserShouldBeAbleToComment" type="TestNG" nameIsGenerated="true">
       <module name="NopComWeb" />
       <extension name="coverage">
         <pattern>
@@ -116,10 +148,46 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="InfoSys" />
       <option name="MAIN_CLASS_NAME" value="InfoSys.TestSuite" />
-      <option name="METHOD_NAME" value="registeredUserShouldBeAbleToReferAFriend" />
+      <option name="METHOD_NAME" value="guestUserShouldBeAbleToComment" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.guestUserShouldCheckoutSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopComWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InfoSys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="InfoSys" />
+      <option name="MAIN_CLASS_NAME" value="InfoSys.TestSuite" />
+      <option name="METHOD_NAME" value="guestUserShouldCheckoutSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=ie -DSauce=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -162,11 +230,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.TestSuite.guestUserShouldBeAbleToComment" />
+      <item itemvalue="TestNG.TestSuite.userShouldBeAbleToChangeCurrency" />
+      <item itemvalue="TestNG.TestSuite.verifyAddToCartButtonForAllFeaturedProducts" />
+      <item itemvalue="TestNG.TestSuite.guestUserShouldCheckoutSuccessfully" />
+      <item itemvalue="JUnit.RunTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSuite.verifyAddToCartButtonForAllFeaturedProducts" />
         <item itemvalue="JUnit.RunTest" />
-        <item itemvalue="TestNG.TestSuite.registeredUserShouldBeAbleToReferAFriend" />
+        <item itemvalue="TestNG.TestSuite.guestUserShouldCheckoutSuccessfully" />
+        <item itemvalue="TestNG.TestSuite.verifyAddToCartButtonForAllFeaturedProducts" />
         <item itemvalue="TestNG.TestSuite.userShouldBeAbleToChangeCurrency" />
         <item itemvalue="TestNG.TestSuite.guestUserShouldBeAbleToComment" />
       </list>
@@ -198,34 +273,54 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583020088276">
+    <state x="241" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584455777010">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1583020088276" />
-    <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582412890065">
+    <state x="241" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584455777010" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584454051632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1582412890065" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1582932157963">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1584454051632" />
+    <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583802324981">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582932157963" />
-    <state width="1323" height="212" key="GridCell.Tab.0.bottom" timestamp="1583190542399">
+    <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1583802324981" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1583365365767">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583190542399" />
-    <state width="1323" height="212" key="GridCell.Tab.0.center" timestamp="1583190542399">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583365365767" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1584456180774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583190542399" />
-    <state width="1323" height="212" key="GridCell.Tab.0.left" timestamp="1583190542399">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584456180774" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1584456180774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583190542399" />
-    <state width="1323" height="212" key="GridCell.Tab.0.right" timestamp="1583190542399">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584456180774" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1584456180774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583190542399" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584456180774" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1584456180774">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584456180774" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1584456180774">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584456180774" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1584456180774">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584456180774" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1584456180774">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584456180774" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1584456180774">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584456180774" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1583013317849">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -234,10 +329,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582992678404" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1583358790318">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1584441648699">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583358790318" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584441648699" />
     <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581887061069">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -246,14 +341,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1582389245526" />
+    <state x="65" y="65" key="new project wizard" timestamp="1583762126829">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="65" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1583762126829" />
     <state x="435" y="285" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1583018998893">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="435" y="285" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1583018998893" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1583111819332">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1584453162996">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1583111819332" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1584453162996" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583158290459">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

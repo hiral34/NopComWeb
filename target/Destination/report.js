@@ -1,55 +1,83 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/Resources/features/AddToCart.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/Resources/features/MenuHover.feature");
 formatter.feature({
   "line": 1,
-  "name": "Add to Cart button must be displayed on all featured products",
+  "name": "Menu Hover ability",
   "description": "",
-  "id": "add-to-cart-button-must-be-displayed-on-all-featured-products",
+  "id": "menu-hover-ability",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 37791503300,
+  "duration": 16018869200,
   "status": "passed"
 });
 formatter.scenario({
   "line": 3,
-  "name": "All the featured products on the home page must have a add to cart button underneath each product",
+  "name": "To hover the mouse over choosen menu and see if there are any submenu then try clicking on choosen subdivision of menu.",
   "description": "",
-  "id": "add-to-cart-button-must-be-displayed-on-all-featured-products;all-the-featured-products-on-the-home-page-must-have-a-add-to-cart-button-underneath-each-product",
+  "id": "menu-hover-ability;to-hover-the-mouse-over-choosen-menu-and-see-if-there-are-any-submenu-then-try-clicking-on-choosen-subdivision-of-menu.",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
       "line": 2,
-      "name": "@addToCart"
+      "name": "@MenuHover"
     }
   ]
 });
 formatter.step({
   "line": 4,
-  "name": "user should see add to cart button on all featured products",
-  "keyword": "When "
+  "name": "User on Home page",
+  "keyword": "Given "
 });
 formatter.step({
   "line": 5,
-  "name": "user should be able to add the product to the cart",
+  "name": "he hovers on \"Electronics\" and clicks on \"Others\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "he should be on \"others\" page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MyStepDefs.userShouldSeeAddToCartButtonOnAllFeaturedProducts()"
+  "location": "MyStepDefs.userOnHomePage()"
 });
 formatter.result({
-  "duration": 1765210000,
+  "duration": 764211800,
   "status": "passed"
 });
 formatter.match({
-  "location": "MyStepDefs.userShouldBeAbleToAddTheProductToTheCart()"
+  "arguments": [
+    {
+      "val": "Electronics",
+      "offset": 14
+    },
+    {
+      "val": "Others",
+      "offset": 42
+    }
+  ],
+  "location": "MyStepDefs.heHoversOnAndClicksOn(String,String)"
 });
 formatter.result({
-  "duration": 2752011800,
+  "duration": 2652479400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "others",
+      "offset": 17
+    }
+  ],
+  "location": "MyStepDefs.heShouldBeOnPage(String)"
+});
+formatter.result({
+  "duration": 16085700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1555388800,
+  "duration": 145500,
   "status": "passed"
 });
 });

@@ -1,5 +1,6 @@
 package InfoSys;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -39,7 +40,6 @@ public class MyStepDefs extends Utils{
     @Given("^User is on Products Page$")
     public void userIsOnProductsPage() {
         homePage.clickOnJewelleryLink();
-
     }
 
     @When("^user clicks two products and presses product compare buttons$")
@@ -174,5 +174,36 @@ public class MyStepDefs extends Utils{
     @Then("^user should be able to add the product to the cart$")
     public void userShouldBeAbleToAddTheProductToTheCart() {
         homePage.checkAddToCartButtonOnProducts();
+    }
+
+    @Given("^user is on homepage$")
+    public void userIsOnHomepage() {
+
+    }
+
+    @When("^user clicks on \"([^\"]*)\" link from top menu$")
+    public void userClicksOnLinkFromTopMenu(String category)  {
+        homePage.clickOnCategoryLinks(category);
+    }
+
+    @Then("^user should able to navigate to \"([^\"]*)\" successfully$")
+    public void userShouldAbleToNavigateToSuccessfully(String related_category_page)  {
+        Utils.assertURL(related_category_page);
+    }
+
+    @When("^he hovers on \"([^\"]*)\" and clicks on \"([^\"]*)\"$")
+    public void heHoversOnAndClicksOn(String menu_item, String sub_category) {
+        // Write code here that turns the phrase above into concrete actions
+        homePage.hoverOverMenus(menu_item,sub_category);
+    }
+
+    @Then("^he should be on \"([^\"]*)\" page$")
+    public void heShouldBeOnPage(String sub_category)  {
+        // Write code here that turns the phrase above into concrete actions
+        Utils.assertURL(sub_category);
+    }
+    @Given("^User on Home page$")
+    public void userOnHomePage() {
+        //no steps required.
     }
 }

@@ -4,12 +4,15 @@ import InfoSys.Utils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.asserts.SoftAssert;
-
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 import java.awt.event.AWTEventListenerProxy;
 import java.util.List;
 
 public class HomePage extends Utils {
     SoftAssert softAssert = new SoftAssert();
+
+
     private By _registrationLink = By.linkText("Register");
     private By _jewelryLink = By.linkText("Jewelry");
     private By _loginLink = By.linkText("Log in");
@@ -32,6 +35,25 @@ public class HomePage extends Utils {
             //System.out.println(web.getAttribute("innerHTML"));
         }
         softAssert.assertAll();
+    }
+    public void hoverOverMenus(String main_menu, String sub_category){
+        Actions builder = new Actions(driver);
+        Action mouseOverMenus = builder
+                .moveToElement(driver.findElement(By.linkText(main_menu)))
+                //.moveToElement(driver.findElement(By.linkText("Clothing")))
+                //.click()
+                .build();
+                mouseOverMenus.perform();
+                clickOnSubCategory(sub_category);
+    }
+    public void clickOnSubCategory(String sub_category){
+        Actions builder = new Actions(driver);
+        Action mouseClickSub = builder
+                //.moveToElement(driver.findElement(By.linkText(main_menu)))
+                .moveToElement(driver.findElement(By.linkText(sub_category)))
+                .click()
+                .build();
+                mouseClickSub.perform();
     }
     public void getCurrentCurrency(){
         String strCurrentSymbol = "";
@@ -76,5 +98,8 @@ public class HomePage extends Utils {
             }
         }
         softAssert.assertAll();
+    }
+    public void clickOnCategoryLinks(String category){
+        driver.findElement(By.linkText(category)).click();
     }
 }
