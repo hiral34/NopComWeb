@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="5ed5d14a-5270-4c61-b85f-648c27b86ffb" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/test/Resources/features/MenuHover.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/Resources/features/category.feature" afterDir="false" />
@@ -21,6 +22,9 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/InfoSys/MyStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InfoSys/MyStepDefs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/InfoSys/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InfoSys/RunTest.class" afterDir="false" />
     </list>
+=======
+    <list default="true" id="5ed5d14a-5270-4c61-b85f-648c27b86ffb" name="Default Changelist" comment="" />
+>>>>>>> b520862e35acfa1265075a06d9f23895ffc65bef
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
